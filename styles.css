@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 40px;
+    align-items: center;
+}
+
+nav div {
+    gap: 30px;
+}
+nav a {
+    gap: 20px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner-button {
+    background-color: blue;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.hero-banner {
+    color: white;
+    background-image: url(./assets/banner.jpg);
+    height: 500px;
+    text-align: center;
+}
+
+h1 {
+    padding: 80px 0 20px 0;
+    font-size: bold;
+    font-weight: bolder;
+}
+
+.hero-banner p {
+    padding: 0 500px;
+    text-align: center;
+    width: 500px;
+}
+
+.speakers {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: ;
+}
+
+.andrej {
+    gri
+}
