@@ -4,13 +4,15 @@
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1200px;
+    margin: auto;
 }
+
 
 nav {
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px 40px;
+    justify-content: space-between;
+    margin: 20px 0;
     align-items: center;
 }
 
@@ -63,13 +65,26 @@ h1 {
     width: 500px;
 }
 
+
 .speakers {
     text-align: center;
+    margin-top: 50px;
+}
+.speakers-card {
+    text-align: center;
     display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-template-areas: ;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas: 
 }
 
-.andrej {
-    gri
+.card {
+    border: 1px solid black;
+}
+
+.card img {
+    width: 50%;
+    height: 165px;
+    object-fit: cover;
 }
