@@ -6,6 +6,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }
 
 
@@ -26,7 +27,7 @@ nav a {
     color: rgb(85, 85, 85);
 }
 
-button {
+.nav-button {
     background-color: blue;
     color: white;
     padding: 10px 30px;
@@ -53,7 +54,7 @@ button {
     text-align: center;
 }
 
-h1 {
+.hero-banner h1 {
     padding: 80px 0 20px 0;
     font-size: bold;
     font-weight: bolder;
@@ -65,26 +66,151 @@ h1 {
     width: 500px;
 }
 
-
 .speakers {
     text-align: center;
     margin-top: 50px;
+}
+.speakers h1 {
+    margin-bottom: 20px;
 }
 .speakers-card {
     text-align: center;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 250px;
-    grid-template-areas: 
+    grid-auto-rows: 400px;
 }
 
 .card {
     border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
 }
 
 .card img {
-    width: 50%;
-    height: 165px;
-    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 80%;
+}
+
+.category {
+    padding: 5px 10px;
+    color: blue;
+    font-size: smaller;
+}
+
+.name {
+    padding: 5px 10px;
+}
+
+.post {
+    padding: 5px 10px;
+    color: rgb(141, 141, 141);
+    font-size: smaller;
+}
+
+.pricing {
+    margin-top: 20px;
+    max-width: 1100px;
+    align-items: center;
+    height: 500px;
+}
+
+.pricing h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.pricing-parents {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.pricing-card {
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    padding: 30px;
+}
+
+.pricing-card p {
+    color: rgb(135, 135, 134);
+}
+
+.pricing-card h1 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.pricing-card ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.pricing-card li {
+    margin-bottom: 10px;
+}
+.pricing-card-pro {
+    border: 1px solid rgb(77, 77, 77);
+    columns: white;
+    background-color: rgb(4, 7, 49);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    padding: 30px;
+}
+
+.pricing-card-pro p {
+    color: rgb(62, 129, 237);
+}
+
+.pricing-card-pro h1 {
+    color: aliceblue;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.pricing-card-pro ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.pricing-card-pro li {
+    color: rgb(184, 183, 181);
+    margin-bottom: 10px;
+}
+.standard-button {
+    margin-left: 20px;
+    background-color: white;
+    color: blue;
+    font-weight: 600;
+    padding: 10px 80px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pro-button {
+    margin-left: 20px;
+    background-color: rgb(38, 0, 255);
+    color: rgb(254, 254, 254);
+    font-weight: 600;
+    padding: 10px 100px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.team-button {
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    padding: 10px 100px;
+    border: 1px solid rgb(53, 53, 53);;
+    border-radius: 10px;
+    cursor: pointer;
 }
