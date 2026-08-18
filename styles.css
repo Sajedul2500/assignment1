@@ -157,7 +157,7 @@ nav a {
 .pricing-card-pro {
     border: 1px solid rgb(77, 77, 77);
     columns: white;
-    background-color: rgb(4, 7, 49);
+    background-color: rgb(1, 5, 47);
     border-radius: 10px;
     width: 300px;
     height: 300px;
@@ -214,3 +214,26 @@ nav a {
     border-radius: 10px;
     cursor: pointer;
 }
+ hr {
+    margin-top: 10px;
+ }
+
+ footer {
+    background-color: rgb(1, 1, 24);
+    height: 100px;
+ }
+
+ .footer-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: antiquewhite;
+ }
+
+ .fa-brands {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 0 10px;
+ }
