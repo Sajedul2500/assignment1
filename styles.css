@@ -56,7 +56,7 @@ nav a {
 
 .hero-banner h1 {
     padding: 80px 0 20px 0;
-    font-size: bold;
+    font-size: 60px;
     font-weight: bolder;
 }
 
@@ -217,6 +217,79 @@ nav a {
  hr {
     margin-top: 10px;
  }
+
+.highlights {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 60px;
+  background: #0d1b2a;
+  color: white;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.highlight-text {
+  max-width: 450px;
+}
+
+.small-title {
+  color: #4f7cff;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.highlight-text h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.highlight-text > p {
+  color: #b8c1cc;
+  line-height: 1.6;
+}
+
+.highlight-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 60px;
+}
+
+.stat h3 {
+  font-size: 36px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  color: #9ca3af;
+}
+
+@media (max-width: 768px) {
+  .highlights {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px;
+  }
+
+  .stats {
+    width: 100%;
+  }
+}
 
  footer {
     background-color: rgb(1, 1, 24);
